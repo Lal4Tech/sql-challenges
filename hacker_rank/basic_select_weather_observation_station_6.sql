@@ -7,4 +7,4 @@ SELECT
 FROM
     STATION
 WHERE
-    CITY RLIKE '^[aeiouAEIOU]'
+    CITY RLIKE '^[aeiou]'

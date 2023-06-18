@@ -3,8 +3,8 @@ Query the list of CITY names from STATION which have vowels (i.e., a, e, i, o, a
 */
 
 SELECT
-    CITY
+    DISTINCT CITY
 FROM
     STATION
 WHERE
-    CITY RLIKE '^[aeiouAEIOU].*[aeiouAEIOU]$'
+    CITY RLIKE '^[aeiou].*[aeiou]$'
